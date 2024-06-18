@@ -1,12 +1,12 @@
+package org.first;
+
 import java.util.Scanner;
 
 public class Calculator {
 
     public static void main(String[] args) {
-        {
 
             Scanner scanner = new Scanner(System.in);
-
 
             System.out.print("Input two number: ");
             double num1 = scanner.nextDouble();
@@ -28,4 +28,3 @@ public class Calculator {
             }
         }
     }
-}
